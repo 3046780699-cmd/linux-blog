@@ -1,0 +1,74 @@
+baseURL = "https://3046780699-cmd.github.io/linux-blog/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+title = "jiangzezhi 的学习笔记"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+hasCJKLanguage = true
+paginate = 10
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+author = "jiangzezhi"
+description = "记录 Linux 基础、文件管理和 Shell 编程的学习笔记。"
+mainSections = ["posts"]
+defaultTheme = "light"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+DateFormat = "2006年01月02日"
+
+[params.homeInfoParams]
+Title = "你好，我是 jiangzezhi"
+Content = "把命令写清楚，把原理想明白。这里记录我整理的 Linux 基础、文件权限和 Shell 编程笔记，欢迎一起学习。"
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+ignoreLocation = true
+threshold = 0.35
+minMatchCharLength = 1
+keys = ["title", "summary", "content"]
+
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 40
+
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 50
+
+[[menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 60
