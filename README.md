@@ -35,7 +35,7 @@ git clone --recurse-submodules <实际仓库地址>
 ## 需要补齐的个人资料
 
 1. 在 `content/about.md` 填写真实中文姓名和专业。
-2. 把个人照片放入 `static/images/profile.jpg`，并将关于页图片路径改为 `images/profile.jpg`。
+2. 把个人照片放入 `static/images/profile.jpg`，并将关于页图片路径改为 `../images/profile.jpg`。
 3. 当前 `profile-placeholder.svg` 只是明确写着“个人照片待补”的占位图，不是真实个人照片。
 4. 实验报告的姓名、学院、专业、班级、学号、序号和封面二寸照片应补齐，再按 `序号-学号-姓名.pdf` 命名。
 

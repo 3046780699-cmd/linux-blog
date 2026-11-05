@@ -10,7 +10,7 @@ ShowToc: false
 
 **专业：** 【待填写专业】
 
-{{< figure src="images/profile-placeholder.svg" alt="个人照片待补" width="160" caption="个人照片待补" >}}
+{{< figure src="../images/profile-placeholder.svg" alt="个人照片待补" width="160" caption="个人照片待补" >}}
 
 你好！我是 jiangzezhi。我用这个博客整理 Linux 课程中的知识点，把分散的命令与操作方法写成能够反复查阅的笔记。
 
