@@ -1,4 +1,4 @@
-# jiangzezhi 的 Hugo 学习博客
+# 姜泽之的 Hugo 学习博客
 
 Hugo + PaperMod 个人博客，包含首页、关于、标签、分类、归档、搜索和三篇非草稿文章。仓库为 `3046780699-cmd/linux-blog`，GitHub Pages 目标地址为 `https://3046780699-cmd.github.io/linux-blog/`。是否已部署请以仓库 Actions 和 Pages 的实时状态为准。
 
@@ -32,12 +32,9 @@ hugo server --bind 0.0.0.0 --baseURL http://虚拟机IP:1313/ --appendPort=false
 git clone --recurse-submodules <实际仓库地址>
 ```
 
-## 需要补齐的个人资料
+## 个人资料
 
-1. 在 `content/about.md` 填写真实中文姓名和专业。
-2. 把个人照片放入 `static/images/profile.jpg`，并将关于页图片路径改为 `../images/profile.jpg`。
-3. 当前 `profile-placeholder.svg` 只是明确写着“个人照片待补”的占位图，不是真实个人照片。
-4. 实验报告的姓名、学院、专业、班级、学号、序号和封面二寸照片应补齐，再按 `序号-学号-姓名.pdf` 命名。
+关于页已填写姓名姜泽之、专业软件工程。按本人要求不放照片，也不显示照片占位。报告按另行提供的个人资料填写；班级、学号仅用于本地报告。
 
 ## 内容结构
 

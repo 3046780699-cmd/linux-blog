@@ -1,7 +1,7 @@
 baseURL = "https://3046780699-cmd.github.io/linux-blog/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
-title = "jiangzezhi 的学习笔记"
+title = "姜泽之的学习笔记"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
@@ -12,7 +12,7 @@ paginate = 10
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-author = "jiangzezhi"
+author = "姜泽之"
 description = "记录 Linux 基础、文件管理和 Shell 编程的学习笔记。"
 mainSections = ["posts"]
 defaultTheme = "light"
@@ -26,7 +26,7 @@ TocOpen = false
 DateFormat = "2006年01月02日"
 
 [params.homeInfoParams]
-Title = "你好，我是 jiangzezhi"
+Title = "你好，我是姜泽之"
 Content = "把命令写清楚，把原理想明白。这里记录我整理的 Linux 基础、文件权限和 Shell 编程笔记，欢迎一起学习。"
 
 [params.fuseOpts]
